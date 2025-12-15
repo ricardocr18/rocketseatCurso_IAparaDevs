@@ -1,2 +1,31 @@
-# rocketseatCurso_IAparaDevs
-Trilha do Curso RocketSeat de IA para Devs - Desenvolvimento de soluções inteligentes com IA: chatbots, RAG, fine-tuning e muito mais!
+# 🚀 RocketSeat - IA para Devs
+
+Repositório contendo os projetos desenvolvidos durante o curso **"IA para Devs"** da RocketSeat.
+
+## 📚 Estrutura do Repositório
+
+Este repositório utiliza **branches separadas** para cada nível/projeto do curso:
+
+| Branch | Descrição | Status |
+|--------|-----------|--------|
+| [`Nivel3Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel3Desafio) | Sistema RAG com chatbot | ✅ Completo |
+| `Nivel4Desafio` | Fine-tuning de modelos | 🚧 Em desenvolvimento |
+
+
+## 📥 Como Clonar um Projeto Específico
+
+Para clonar apenas um nível específico:
+
+```bash
+# Exemplo: Clonar apenas o Nível 3
+git clone -b Nivel3Desafio https://github.com/ricardocr18/rocketseatCurso_IAparaDevs.git Nivel3Desafio
+```
+
+## 👨‍💻 Autor
+
+**Ricardo CR18**
+
+---
+
+⭐ **Dica:** Navegue pelas branches para ver cada projeto!
+```

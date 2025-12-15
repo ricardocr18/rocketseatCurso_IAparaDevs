@@ -9,7 +9,7 @@ Este repositório utiliza **branches separadas** para cada nível/projeto do cur
 | Branch | Descrição | Status |
 |--------|-----------|--------|
 | [`Nivel3Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel3Desafio) | Sistema RAG com chatbot | ✅ Completo |
-| `Nivel4Desafio` | Fine-tuning de modelos | 🚧 Em desenvolvimento |
+| [`Nivel4Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel4Desafio) | Fine-tuning de modelos | 🚧 Em desenvolvimento |
 
 
 ## 📥 Como Clonar um Projeto Específico

@@ -105,14 +105,18 @@ Nivel5Desafio/
 
 ---
 
-🚀 Como Executar
-1️⃣ Clonar o Repositório
+## 🚀 Como Executar
+### **1️⃣ Clonar o Repositório**
 
+```bash
 git clone -b Nivel5Desafio https://github.com/ricardocr18/rocketseatCurso_IAparaDevs.git Nivel5Desafio
 cd Nivel5Desafio
+````
 
-2️⃣ Criar Ambiente Virtual
+### **2️⃣ Criar Ambiente Virtual**
+```bash
 python -m venv .venv
+````
 
 Ativar no Windows:
 .venv\Scripts\activate

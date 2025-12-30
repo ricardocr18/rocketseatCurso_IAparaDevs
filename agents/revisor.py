@@ -34,6 +34,6 @@ def criar_revisor(llm: ChatOpenAI) -> Agent:
         verbose=True,
         llm=llm,
         max_iter=5,
-        allow_delegation=False,  # Pode delegar de volta se necessário
+        allow_delegation=True,  # Pode delegar de volta se necessário
         memory=True
     )

@@ -1,0 +1,20 @@
+# Framework CrewAI
+crewai>=0.70.0
+crewai-tools>=0.12.0
+
+# LLM e LangChain
+langchain>=0.2.0
+langchain-openai>=0.1.0
+langchain-community>=0.2.0
+
+# Geração de Imagens
+openai>=1.0.0
+pillow>=10.0.0
+requests>=2.31.0
+
+# Pesquisa
+duckduckgo-search>=4.1.0
+
+# Utilidades
+python-dotenv>=1.0.0
+pydantic>=2.0.0

@@ -15,31 +15,39 @@ Desenvolver um sistema de IA capaz de:
 ---
 
 ## 🤖 Agentes do Sistema
-🎬 1. **Roteirista de Vídeo**
 
-- **Função**: Criar roteiros estruturados e envolventes
-- **Capacidades**:
--- Pesquisa de informações atualizadas sobre jogos
--- Estruturação narrativa (Introdução → Desenvolvimento → Conclusão)
-Timing preciso (marcações de tempo)
-CTAs estratégicos para engajamento
-Linguagem adaptada ao público gamer (18-35 anos)
-🎨 2. Designer de Thumbnails
-Função: Criar descrições visuais de thumbnails profissionais
-Capacidades:
-Análise do roteiro para criar thumbnails relevantes
-3 variações de design (Vibrante, Escura/Épica, Minimalista)
-Prompts detalhados para geração de imagens DALL-E 3
-Mockups textuais de composição visual
-Recomendações baseadas em CTR esperado
-✅ 3. Revisor de Conteúdo
-Função: Revisar, integrar e otimizar todo o conteúdo
-Capacidades:
-Revisão técnica e gramatical
-Integração roteiro + thumbnails
-Criação de metadados SEO (título, descrição, tags)
-Sugestões de melhoria
-Geração do documento final integrado
+### 🎬 **1. Roteirista de Vídeo**
+
+- **Função:** Criar roteiros estruturados e envolventes
+
+- **Capacidades:**
+  - Pesquisa de informações atualizadas sobre jogos
+  - Estruturação narrativa (Introdução → Desenvolvimento → Conclusão)
+  - Timing preciso (marcações de tempo)
+  - CTAs estratégicos para engajamento
+  - Linguagem adaptada ao público gamer (18-35 anos)
+
+### 🎨 **2. Designer de Thumbnails**
+
+- **Função:** Criar descrições visuais de thumbnails profissionais
+
+- **Capacidades:**
+  - Análise do roteiro para criar thumbnails relevantes
+  - 3 variações de design (Vibrante, Escura/Épica, Minimalista)
+  - Prompts detalhados para geração de imagens DALL-E 3
+  - Mockups textuais de composição visual
+  - Recomendações baseadas em CTR esperado
+
+### ✅ **3. Revisor de Conteúdo**
+
+- **Função:** Revisar, integrar e otimizar todo o conteúdo
+
+- **Capacidades:**
+  - Revisão técnica e gramatical
+  - Integração roteiro + thumbnails
+  - Criação de metadados SEO (título, descrição, tags)
+  - Sugestões de melhoria
+  - Geração do documento final integrado
 
 ---
 
@@ -52,7 +60,6 @@ Geração do documento final integrado
 | **OpenAI GPT** | GPT-4o-mini | Modelo de linguagem |
 | **LangChain** | Latest | Integração com LLMs |
 | **DuckDuckGo Search** | Latest | Pesquisa web (opcional) |
-| **DALL-E 3** | Latest | Geração de imagens (opcional) |
 | **Python-dotenv** | Latest | Gerenciamento de variáveis |
 
 ---

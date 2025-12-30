@@ -15,11 +15,12 @@ Desenvolver um sistema de IA capaz de:
 ---
 
 ## 🤖 Agentes do Sistema
-🎬 1. Roteirista de Vídeo
-Função: Criar roteiros estruturados e envolventes
-Capacidades:
-Pesquisa de informações atualizadas sobre jogos
-Estruturação narrativa (Introdução → Desenvolvimento → Conclusão)
+🎬 1. **Roteirista de Vídeo**
+
+- **Função**: Criar roteiros estruturados e envolventes
+- **Capacidades**:
+-- Pesquisa de informações atualizadas sobre jogos
+-- Estruturação narrativa (Introdução → Desenvolvimento → Conclusão)
 Timing preciso (marcações de tempo)
 CTAs estratégicos para engajamento
 Linguagem adaptada ao público gamer (18-35 anos)
@@ -39,6 +40,8 @@ Integração roteiro + thumbnails
 Criação de metadados SEO (título, descrição, tags)
 Sugestões de melhoria
 Geração do documento final integrado
+
+---
 
 
 ## 🛠️ Tecnologias Utilizadas

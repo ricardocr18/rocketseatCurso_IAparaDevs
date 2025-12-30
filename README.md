@@ -111,30 +111,40 @@ Nivel5Desafio/
 ```bash
 git clone -b Nivel5Desafio https://github.com/ricardocr18/rocketseatCurso_IAparaDevs.git Nivel5Desafio
 cd Nivel5Desafio
-````
+```
 
 ### **2️⃣ Criar Ambiente Virtual**
 ```bash
 python -m venv .venv
-````
+```
 
 Ativar no Windows:
+```bash
 .venv\Scripts\activate
+```
 
 Ativar no Linux/Mac:
+```bash
 source .venv/bin/activate
+```
 
-3️⃣ Instalar Dependências
+### 3️⃣ Instalar Dependências
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Configurar Variáveis de Ambiente
+### 4️⃣ Configurar Variáveis de Ambiente
 Copie o arquivo .env.example para .env:
+```bash
 cp .env.example .env
+```
 
-5️⃣ Executar o Sistema
+### 5️⃣ Executar o Sistema
+```bash
 python main.py
-
-👨‍💻 Autor
+```
+---
+### 👨‍💻 Autor
 Ricardo Ribeiro
 
 ⭐ Se este projeto foi útil, deixe uma estrela no repositório! ⭐

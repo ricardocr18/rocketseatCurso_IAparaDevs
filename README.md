@@ -12,6 +12,8 @@ Desenvolver um sistema de IA capaz de:
 3.**Gerar descrições** de 3 opções de thumbnails profissionais
 4.**Revisar e integrar** todo o conteúdo com metadados SEO otimizados
 
+---
+
 ## 🤖 Agentes do Sistema
 🎬 1. Roteirista de Vídeo
 Função: Criar roteiros estruturados e envolventes

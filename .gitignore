@@ -26,3 +26,20 @@ outputs/thumbnails/*.jpg
 
 # Logs
 *.log
+
+# Ignorar todos os arquivos gerados, exceto estrutura
+
+# Ignorar Markdown gerados
+*.md
+!README.md
+
+# Ignorar imagens geradas
+*.png
+*.jpg
+*.jpeg
+
+# Manter apenas .gitkeep
+!.gitkeep
+
+# Manter estrutura de pastas
+!*/

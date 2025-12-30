@@ -1,7 +1,7 @@
 from crewai import Agent
 from langchain_openai import ChatOpenAI
 
-def criar_revisor(llm: ChatOpenAI) -> Agent:
+def criar_agente_revisor(llm: ChatOpenAI) -> Agent:
     """
     Cria o agente Revisor de Conteúdo.
     """

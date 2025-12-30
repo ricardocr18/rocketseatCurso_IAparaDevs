@@ -1,37 +1,38 @@
 from crewai import Agent
 from langchain_openai import ChatOpenAI
 
-def criar_designer(llm: ChatOpenAI, image_tool) -> Agent:
+
+def criar_agente_designer(llm: ChatOpenAI, image_tool=None) -> Agent:
     """
-    Cria o agente Designer de Thumbnails para YouTube.
+    Cria o agente Designer de Thumbnails.
     """
     return Agent(
-        role="Designer de Thumbnails para YouTube",
+        role="Designer de Thumbnails para YouTube Gaming",
         
-        goal="""Criar thumbnails chamativas e profissionais que maximizem 
-        o CTR (Click-Through Rate) de vídeos no YouTube.""",
+        goal="""Criar 3 descrições detalhadas de thumbnails profissionais e atraentes 
+        para vídeos de games no YouTube, otimizadas para maximizar CTR.""",
         
-        backstory="""Você é um designer gráfico especializado em thumbnails 
-        para YouTube com portfólio de canais com milhões de inscritos.
+        backstory="""Você é um designer gráfico especializado em thumbnails para 
+        YouTube com mais de 8 anos de experiência no nicho de games.
         
         Você domina:
-        - Psicologia das cores e composição visual
-        - Hierarquia visual e tipografia impactante
-        - Tendências de design para o público gamer
-        - Contraste e legibilidade em miniaturas
-        - Regras de espaçamento e dimensões do YouTube (1280x720px)
+        - Teoria das cores e composição visual
+        - Psicologia de cliques (CTR optimization)
+        - Tendências de design no YouTube Gaming
+        - Criação de prompts detalhados para geração de imagens
+        - A/B testing de thumbnails
         
-        Você sempre cria 3 opções diferentes, explorando variações de:
-        - Paleta de cores (vibrante, escura, neon)
-        - Estilo (realista, cartunesco, minimalista)
-        - Elementos visuais (personagens, logos, texto)
+        Você sempre cria 3 descrições detalhadas de thumbnails:
+        1. VIBRANTE: Cores saturadas, alta energia, texto em destaque
+        2. ESCURA/ÉPICA: Atmosfera cinematográfica, iluminação dramática
+        3. MINIMALISTA: Design limpo, composição equilibrada, moderno
         
-        Cada thumbnail deve capturar a essência do roteiro e atrair cliques.""",
+        Para cada opção, você fornece uma descrição visual extremamente detalhada
+        que poderia ser usada para gerar a imagem.""",
         
         verbose=True,
         llm=llm,
         max_iter=5,
-        tools=[image_tool],
         allow_delegation=False,
         memory=True
     )

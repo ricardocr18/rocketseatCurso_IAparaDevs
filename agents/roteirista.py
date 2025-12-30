@@ -1,9 +1,8 @@
 from crewai import Agent
-from langchain_openai import ChatOpenAI, OpenAI
-import os
+from langchain_openai import ChatOpenAI
 
 
-def criar_roteirista(llm: ChatOpenAI, search_tool) -> Agent:
+def criar_agente_roteirista(llm: ChatOpenAI, search_tool=None) -> Agent:
     """
     Cria o agente Roteirista de Vídeo especializado em games.
     """
@@ -22,13 +21,12 @@ def criar_roteirista(llm: ChatOpenAI, search_tool) -> Agent:
         - Tendências do mercado de games
         - SEO para YouTube
         
-        Você sempre pesquisa profundamente antes de escrever, garantindo 
-        informações precisas e atualizadas.""",
+        Você tem acesso à internet e pode pesquisar informações atualizadas 
+        sobre jogos, reviews, lançamentos e tendências do mercado.""",
         
         verbose=True,
         llm=llm,
         max_iter=5,
-        tools=[search_tool],
         allow_delegation=False,
         memory=True
     )

@@ -43,19 +43,23 @@ Geração do documento final integrado
 
 ---
 
-
 ## 🛠️ Tecnologias Utilizadas
-Tecnologia	Versão	Uso
-Python	3.11+	Linguagem principal
-CrewAI	Latest	Framework multi-agente
-OpenAI GPT	GPT-4o-mini	Modelo de linguagem
-LangChain	Latest	Integração com LLMs
-DuckDuckGo Search	Latest	Pesquisa web (opcional)
-DALL-E 3	Latest	Geração de imagens (opcional)
-Python-dotenv	Latest	Gerenciamento de variáveis
 
-📁 Estrutura do Projeto
+| Tecnologia | Versão | Uso |
+|------------|--------|-----|
+| **Python** | 3.11+ | Linguagem principal |
+| **CrewAI** | Latest | Framework multi-agente |
+| **OpenAI GPT** | GPT-4o-mini | Modelo de linguagem |
+| **LangChain** | Latest | Integração com LLMs |
+| **DuckDuckGo Search** | Latest | Pesquisa web (opcional) |
+| **DALL-E 3** | Latest | Geração de imagens (opcional) |
+| **Python-dotenv** | Latest | Gerenciamento de variáveis |
 
+---
+
+## 📁 Estrutura do Projeto
+
+```
 Nivel5Desafio/
 ├── agents/                      # 🤖 Agentes especializados
 │   ├── __init__.py
@@ -90,6 +94,9 @@ Nivel5Desafio/
 ├── main.py                      # 🚀 Ponto de entrada
 ├── requirements.txt             # Dependências Python
 └── README.md                    # Documentação do projeto
+```
+
+---
 
 🚀 Como Executar
 1️⃣ Clonar o Repositório

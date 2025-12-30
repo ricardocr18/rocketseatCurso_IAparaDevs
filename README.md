@@ -7,10 +7,10 @@ Sistema multi-agente automatizado que utiliza CrewAI para criar conteúdo comple
 ### 🎯 Objetivo
 Desenvolver um sistema de IA capaz de:
 
-1.**Pesquisar** informações atualizadas sobre jogos na web
-2.**Criar roteiros** estruturados para vídeos de YouTube (8-10 minutos)
-3.**Gerar descrições** de 3 opções de thumbnails profissionais
-4.**Revisar e integrar** todo o conteúdo com metadados SEO otimizados
+1. **Pesquisar** informações atualizadas sobre jogos na web
+2. **Criar roteiros** estruturados para vídeos de YouTube (8-10 minutos)
+3. **Gerar descrições** de 3 opções de thumbnails profissionais
+4. **Revisar e integrar** todo o conteúdo com metadados SEO otimizados
 
 ---
 

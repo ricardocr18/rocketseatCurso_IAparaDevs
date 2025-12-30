@@ -4,13 +4,13 @@
 ## 📋 Descrição do Desafio
 Sistema multi-agente automatizado que utiliza CrewAI para criar conteúdo completo para YouTube Gaming, incluindo roteiro estruturado e descrições profissionais de thumbnails. O projeto implementa um fluxo de trabalho com 3 agentes especializados trabalhando de forma colaborativa.
 
-## 🎯 Objetivo
+### 🎯 Objetivo
 Desenvolver um sistema de IA capaz de:
 
-Pesquisar informações atualizadas sobre jogos na web
-Criar roteiros estruturados para vídeos de YouTube (8-10 minutos)
-Gerar descrições de 3 opções de thumbnails profissionais
-Revisar e integrar todo o conteúdo com metadados SEO otimizados
+1.**Pesquisar** informações atualizadas sobre jogos na web
+2.**Criar roteiros** estruturados para vídeos de YouTube (8-10 minutos)
+3.**Gerar descrições** de 3 opções de thumbnails profissionais
+4.**Revisar e integrar** todo o conteúdo com metadados SEO otimizados
 
 ## 🤖 Agentes do Sistema
 🎬 1. Roteirista de Vídeo

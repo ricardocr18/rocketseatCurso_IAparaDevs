@@ -1,0 +1,152 @@
+{
+  "info": {
+    "name": "Nivel6Desafio - Prompt Engineering",
+    "description": "Collection para testar Questão 4 (FastAPI)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. GET Root (Info da API)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": [""]
+        }
+      }
+    },
+    {
+      "name": "2. GET Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/health",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["health"]
+        }
+      }
+    },
+    {
+      "name": "3. POST Item - Válido ✅",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"Mouse Gamer\",\n  \"valor\": 150.00,\n  \"data\": \"2025-01-02\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/item",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["item"]
+        }
+      }
+    },
+    {
+      "name": "4. POST Item - Nome Longo ❌",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"Este é um nome extremamente longo que ultrapassa os vinte e cinco caracteres permitidos\",\n  \"valor\": 100.00,\n  \"data\": \"2025-01-01\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/item",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["item"]
+        }
+      }
+    },
+    {
+      "name": "5. POST Item - Data Futura ❌",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"Teclado\",\n  \"valor\": 200.00,\n  \"data\": \"2026-12-31\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/item",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["item"]
+        }
+      }
+    },
+    {
+      "name": "6. POST Item - Nome Vazio ❌",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"   \",\n  \"valor\": 100.00,\n  \"data\": \"2025-01-01\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/item",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["item"]
+        }
+      }
+    },
+    {
+      "name": "7. POST Item - Campo Faltando ❌",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"valor\": 100.00,\n  \"data\": \"2025-01-01\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/item",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["item"]
+        }
+      }
+    }
+  ]
+}

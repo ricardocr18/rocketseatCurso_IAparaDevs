@@ -11,7 +11,7 @@ Este repositório utiliza **branches separadas** para cada nível/projeto do cur
 | [`Nivel3Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel3Desafio) | LLMs com RAG | ✅ Completo |
 | [`Nivel4Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel4Desafio) | LLMs Fine Tuning | ✅ Completo |
 | [`Nivel5Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel5Desafio) | Agente de IA | ✅ Completo |
-| `Nivel6Desafio`| Prompt Engineering | 🚧 Em desenvolvimento |
+| [`Nivel6Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel6Desafio) | Prompt Engineering | ✅ Completo |
 
 
 ## 📥 Como Clonar um Projeto Específico

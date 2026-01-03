@@ -413,27 +413,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-## ⭐ Agradecimentos
-
-- **Rocketseat** - Pelo excelente curso de IA para Devs
-- **OpenAI** - Pela API GPT poderosa e documentação de Prompt Engineering
-- **FastAPI Team** - Pelo framework web moderno e eficiente
-- **Comunidade Python** - Pelo suporte e bibliotecas incríveis
-
----
-
-## 🎯 Roadmap
-
-- [ ] Adicionar testes automatizados (pytest)
-- [ ] Criar interface web (Streamlit) para testar prompts
-- [ ] Adicionar mais exemplos de técnicas avançadas
-- [ ] Integrar com outras ferramentas de IA (Claude, Gemini)
-- [ ] Criar comparativo de respostas entre diferentes LLMs
-- [ ] Adicionar métricas de qualidade das respostas
-- [ ] Criar guia visual de técnicas de Prompt Engineering
-
----
-
 ## 📊 Comparativo de Ferramentas de IA
 
 | Ferramenta | Melhor Para | Limitações |

@@ -167,9 +167,6 @@ Criar um endpoint com **FastAPI** que valide e processe a entrada de um objeto `
 cd questoes/questao4_fastapi
 uvicorn main:app --reload
 ```
-
-**Documentação:** http://localhost:8000/docs
-
 ---
 
 ## 🚀 Como Executar

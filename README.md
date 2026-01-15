@@ -77,9 +77,6 @@ Ray Tracing é uma tecnologia amplamente documentada. A questão é objetiva e n
 ```
 Como o algoritmo de Ray Tracing calcula a cor de um pixel em uma imagem renderizada?
 ```
-
-📄 **[Ver detalhes completos →](questoes/questao1_raytracing.md)**
-
 ---
 
 ### 🔢 **Questão 2: Decomposição Numérica**
@@ -102,9 +99,6 @@ Exemplos:
 
 Agora faça para 142.981:
 ```
-
-📄 **[Ver detalhes completos →](questoes/questao2_decomposicao.md)**
-
 ---
 
 ### ⚔️ **Questão 3: Maquiavel em Game of Thrones**
@@ -150,9 +144,6 @@ Ao analisar os personagens, considere:
 Quais personagens de As Crônicas de Gelo e Fogo possuem características 
 inspiradas na filosofia de Maquiavel?
 ```
-
-📄 **[Ver detalhes completos →](questoes/questao3_maquiavel.md)**
-
 ---
 
 ### 🚀 **Questão 4: FastAPI - Validação de Item**
@@ -170,8 +161,6 @@ Criar um endpoint com **FastAPI** que valide e processe a entrada de um objeto `
 2. Retornar o item com campo adicional `uuid` (identificador único)
 
 **Técnica:** Prompt Engineering aplicado à geração de código
-
-**Código completo:** 📄 **[Ver implementação →](questoes/questao4_fastapi/main.py)**
 
 **Executar:**
 ```bash
@@ -231,16 +220,6 @@ OPENAI_API_KEY=sk-proj-seu_token_aqui
 cd questoes/questao4_fastapi
 python main.py
 ```
-
-Ou:
-```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
-```
-
-**Acessar documentação:**
-- Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
-
 ---
 
 ## 📊 Análise Comparativa das Técnicas
@@ -253,82 +232,6 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 | **4** | Code Generation | ⭐⭐⭐ Alta | ⭐⭐⭐ Alto | ✅ Especificações | ✅ Funcional |
 
 ---
-
-## 🎓 Conceitos Aplicados
-
-### **Prompt Engineering:**
-✅ Zero-Shot Learning  
-✅ Few-Shot Learning  
-✅ Chain of Thought (CoT)  
-✅ CIDI Framework  
-✅ Context Management  
-✅ Instruction Clarity  
-
-### **Desenvolvimento:**
-✅ FastAPI Framework  
-✅ Pydantic Validation  
-✅ REST API Design  
-✅ HTTP Status Codes  
-✅ UUID Generation  
-✅ Exception Handling  
-
----
-
-## 📚 Recursos e Referências
-
-### **Prompt Engineering:**
-- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)
-- [Learn Prompting](https://learnprompting.org/)
-- [Prompt Engineering Guide (DAIR.AI)](https://www.promptingguide.ai/)
-
-### **FastAPI:**
-- [FastAPI Documentation](https://fastapi.tiangolo.com/)
-- [Pydantic Documentation](https://docs.pydantic.dev/)
-- [Uvicorn Documentation](https://www.uvicorn.org/)
-
-### **Conceitos Técnicos:**
-- [Ray Tracing in One Weekend](https://raytracing.github.io/)
-- [O Príncipe - Maquiavel (Gutenberg)](https://www.gutenberg.org/ebooks/1232)
-- [A Song of Ice and Fire Wiki](https://awoiaf.westeros.org/)
-
----
-
-## 🧪 Testes
-
-### **Testar Questão 4 (FastAPI):**
-
-```bash
-# Instalar HTTPie (opcional)
-pip install httpie
-
-# Teste de sucesso
-http POST localhost:8000/item nome="Mouse Gamer" valor=150.00 data="2025-01-01"
-
-# Teste de erro (nome longo)
-http POST localhost:8000/item nome="Nome extremamente longo que ultrapassa vinte e cinco caracteres" valor=150.00 data="2025-01-01"
-
-# Teste de erro (data futura)
-http POST localhost:8000/item nome="Teclado" valor=200.00 data="2026-12-31"
-
-# Teste de erro (valor negativo)
-http POST localhost:8000/item nome="Monitor" valor=-500.00 data="2025-01-01"
-```
-
----
-
-## 📂 Arquivos Gerados
-
-### **Questões (Markdown):**
-- ✅ `questoes/questao1_raytracing.md` - Análise Zero-Shot
-- ✅ `questoes/questao2_decomposicao.md` - Análise Few-Shot + CoT
-- ✅ `questoes/questao3_maquiavel.md` - Análise CIDI
-- ✅ `questoes/questao4_fastapi/` - Implementação FastAPI
-
-### **Respostas (Geradas por IA):**
-- 📝 `respostas/questao1_resposta.md`
-- 📝 `respostas/questao2_resposta.md`
-- 📝 `respostas/questao3_resposta.md`
-- 📝 `respostas/questao4_codigo.py`
 
 ---
 
@@ -359,76 +262,11 @@ http POST localhost:8000/item nome="Monitor" valor=-500.00 data="2025-01-01"
 
 ---
 
-## 🐛 Troubleshooting
-
-### **Erro: ModuleNotFoundError**
-```bash
-# Reinstalar dependências
-pip install -r requirements.txt --force-reinstall
-```
-
-### **Erro: Port 8000 already in use**
-```bash
-# Usar outra porta
-uvicorn main:app --reload --port 8001
-```
-
-### **Erro: Pydantic validation error**
-```bash
-# Verificar formato dos dados enviados
-# Exemplo correto:
-{
-  "nome": "Item",
-  "valor": 100.0,
-  "data": "2025-01-01"
-}
-```
-
----
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Para contribuir:
-
-1. Fork o projeto
-2. Crie uma branch (`git checkout -b feature/NovaFuncionalidade`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
-5. Abra um Pull Request
-
----
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 ## 👨‍💻 Autor
 
 **Ricardo Ribeiro**
 
-[![GitHub](https://img.shields.io/badge/GitHub-ricardocr18-black?logo=github)](https://github.com/ricardocr18)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ricardo%20Ribeiro-blue?logo=linkedin)](https://linkedin.com/in/seu-perfil)
-
 ---
-
-## 📊 Comparativo de Ferramentas de IA
-
-| Ferramenta | Melhor Para | Limitações |
-|------------|-------------|------------|
-| **ChatGPT** | Análises gerais, código | Context window |
-| **Claude** | Documentos longos, análise profunda | Rate limits |
-| **Gemini** | Multimodal, imagens | Disponibilidade |
-| **GitHub Copilot** | Código, autocomplete | Contexto limitado |
-
----
-
-<div align="center">
-
-### ⭐ Se este projeto foi útil, deixe uma estrela no repositório! ⭐
-
-**Desenvolvido com 💙 por [Ricardo Ribeiro](https://github.com/ricardocr18)**
 
 ---
 

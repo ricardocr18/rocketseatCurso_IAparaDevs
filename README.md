@@ -1,6 +1,6 @@
 # 🚀 RocketSeat - IA para Devs
 
-Repositório contendo os projetos desenvolvidos durante o curso **"IA para Devs"** da RocketSeat.
+Repositório contendo os projetos desenvolvidos durante o curso **"IA para Devs"** da [RocketSeat](https://www.rocketseat.com.br/).
 
 ## 📚 Estrutura do Repositório
 
